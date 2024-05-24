@@ -1,7 +1,12 @@
 import React from "react";
+import Task from "./Task";
 
 const App: React.FC = () => {
-  return <div className="text-white">Hello World!</div>;
+  return (
+    <>
+      <Task />
+    </>
+  );
 };
 
 export default App;
